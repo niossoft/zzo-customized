@@ -34,7 +34,9 @@
     {{ partial "pagination/pagination-single" . }}
     {{ partial "comments/comments.html" . }}
     {{ partial "body/photoswipe" . }}
-
+    <div class="disqus markdown">
+      {{ partial "disqus.html" . }}
+    </div>
     <div class="hide">
       {{ partial "search/site-search" . }}
     </div>
